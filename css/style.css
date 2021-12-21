@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Creepster&family=Roboto&display=swap');
+body{
+	  background-color: black;
+	  font-family: Helvetica, sans-serif;
+	  color: white;
+	  height: 100vh;
+
+
+}
+a{text-decoration: none;
+  color: white;
+}
+
+a:hover{
+	color: #E5A9C0;
+}
+
+
+
+.banner img{
+	width: 100%;
+	height: auto;
+  border-radius: 40px;
+  opacity: 0.9;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 20px;
+
+
+}
+
+
+
+.blur{filter: blur(0px)}
+
+.subbanner{
+	position: relative;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+.subbanner{
+	background-color: #AC6C5F;
+	width: 100%;
+	height: 0px;
+}
+
+
+.navbar{
+	font-family: Amatic SC;
+  letter-spacing: 0.025em;
+	font-size: 30px;
+	background-color: black;
+	max-width: 100%;
+	margin-left: 0px;
+	padding-top: 20px;
+	
+
+}
+.navbar ul{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	margin-left: 0px;
+}
+
+.navbar li{
+	display: inline;	
+
+}
+.hbg i {
+  display: none;
+}
+.navbar a{
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 15px;
+
+}
+.navbar a:hover{
+	color:#f4b4b7;
+}
+.videosnav{
+  font-family: Amatic SC;
+  letter-spacing: 0.025em;
+  font-size: 20px;
+  background-color: black;
+  max-width: 100%;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.videosnav ul{
+  padding: 0;
+  margin:0;
+  list-style: none;
+  margin-left: 0px;
+}
+.videosnav li{
+  display: inline;    
+}
+.videosnav a{
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 15px;
+
+}
+.videosnav a:hover{
+  color:#f4b4b7;
+}
+.box0{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+.carousel {
+position:relative;
+height: 100%;
+width: 90%;
+margin: 0 auto;
+margin-top: 25px;
+}
+
+.carousel_image{
+	position: absolute;
+	width: 100%;
+	height: 70%;
+	border-radius: 20px;
+	object-fit: fill; 
+	opacity: 0.7;
+}
+.carousel_image:hover{
+	opacity: 1;
+}
+
+.bajada {
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	bottom: 80%;
+	top: 70%;
+	
+
+}
+.bajada p{
+	font-family: Amatic SC;
+	text-align: justify;
+	font-size: 160%;
+}
+
+
+.carousel_track-container {
+	background: black;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel_track {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	transition: transform 250ms ease-in;
+}
+
+.carousel_slide {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.carousel_button {
+	position:absolute;
+	top: 35%;
+	transform: translateY(-35%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel_button--left {
+	left: -40px;
+}
+
+.carousel_button--right {
+	right: -40px;
+}
+.carousel_button img {
+	width: 30px;
+}
+.carousel_nav {
+	background: black;
+	display: flex;
+	justify-content: center;
+	padding: 0px 0;
+}
+
+.carousel_indicator {
+	border:  0;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background: white;
+	margin: 12px 12px;
+	cursor: pointer;
+}
+.carousel_indicator.current-slide {
+	background: grey;
+}
+
+.is-hidden {
+	display: none;
+}
+
+
+.box1{
+	width: 90%;
+	margin: auto;
+  font-family: Roboto;
+  line-height: 150%;
+}
+
+.box1 h3{
+	font-family: Creepster;
+}
+.aterra {
+	font-family: Amatic SC;
+}
+
+#facebook{position: relative;
+padding-left: 70px;
+}
+.videos iframe{
+	padding-right: 10px;
+}
+
+.imgpost{
+	position: relative;
+    margin-left: 100px;
+           }
+.post h3{
+	font-family: Creepster;
+    letter-spacing: 0.025em;	
+  	font-size: 32px;
+  	text-transform: lowercase;
+  	text-transform: capitalize;
+    margin-top:6vh;
+
+  }
+.post small{
+  font-size: 16px;
+  
+}
+.fecha{
+  padding-bottom: 5vh;
+}
+
+.post img {
+                max-width:100%;
+                height:auto;
+                border-radius: 20px;
+
+
+
+            }
+
+
+.post p {
+	font-size: 22px;
+	 text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+.post{
+  border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-style: solid;
+	border-color: #f4b4b7;
+	border-spacing: 20px;
+	border-left: 60px;
+	border-right: 60px;
+
+
+}
+.post h2{
+  font-family: Creepster;
+  letter-spacing: 0.025em;
+  font-size: 30px;
+}
+
+.botonlink a{
+	position: relative;top:-10px;
+	font: bold 18px Arial;
+  	text-decoration: none;
+  	background-color: #000000;
+  	color: #f4b4b7;
+  	padding: 6px 6px 6px 6px;
+  	border-top: 1px solid #f4b4b7;
+  	border-right: 1px solid #f4b4b7;
+  	border-bottom: 1px solid #f4b4b7;
+  	border-left: 1px solid#f4b4b7;
+    border-radius: 10px;
+}
+.botonlink a:hover{
+  color: black;
+  background-color: #f4b4b7;
+  border-color: white;
+}
+  .link {
+    background-image: url("../img/fbButton.png");
+    border: 0;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 0px;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+  }
+ .link2 {
+    background-image: url("../img/twButton.png");
+    border: 0;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 0px;
+    height:40px;
+    width:40px;
+    cursor: pointer;
+  }
+ .about h3{
+ 	font-family: Creepster;
+    letter-spacing: 0.025em;
+  	font-size: 36px;
+  }
+ .about small{font-size: 20px;}
+ #firma{
+   padding-bottom: 5vh;
+ }
+ .about img {
+                max-width:100%;
+                height:25%;
+                border-radius: 20px;
+                
+
+            }
+.about p {
+	font-size: 22px;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+.about{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #f4b4b7;
+	border-spacing: 20px;
+	border-left: 60px;
+	border-right: 60px;
+	margin-bottom: 5%;
+
+}
+#frase1{font-size: 32px;
+        line-height: 1.3em;
+        padding-bottom: 5%;
+  }
+.compartir{
+	font-family: Creepster;
+	font-size: 32px;
+}
+.compartir{
+	padding-top:100px;
+}
+.archivo h3{
+ font-family: Creepster;
+    letter-spacing: 0.025em;
+  	font-size: 36px;
+  }
+.archivo{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #f4b4b7;
+	border-spacing: 20px;
+	border-left: 60px;
+	border-right: 60px;
+}
+.archivo ul{
+	padding: 0;
+	margin-bottom: 500px;
+	list-style: none;
+	margin-left: 0px;
+}
+.listarchivo li{
+  font-family: Amatic SC;
+  letter-spacing: 0.025em;
+	font-size: 32px;
+	padding-top: 12px;
+}
+.listcontacto li{
+  font-family: Creepster;
+  letter-spacing: 0.025em;
+  font-size: 32px;
+  padding-top: 12px;
+}
+.videos h3{
+ 	font-family: Creepster;
+    letter-spacing: 0.025em;
+  	font-size: 36px;
+  }
+.videos small{font-size: 20px;
+              
+  }
+
+.videos iframe{
+	padding-bottom: : 60px;
+}
+.videos{
+	border-width: 0px;
+	border-style: solid;
+	border-color: #f4b4b7;
+	border-spacing: 20px;
+	border-left: 60px;
+	border-right: 60px; }
+
+	#myBtn {
+	font-family: Amatic SC, sans-serif;
+	font-size: 35px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  opacity: 0.6;
+}
+
+#myBtn:hover {
+  background-color: rgba(255, 255, 255);
+  color: black;
+  font-weight: bold; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {display: none;}
+  .hbg i {
+    float: right;
+    display: block;
+    transform: scale(2.0);
+    margin-top: 7.5%;
+  }
+  
+
+@media screen and (max-width: 768px) {
+.navbar-responsive{position: relative;}
+.navbar-responsive a {
+    float: none;
+    display: inline;
+    
+  }
+.navbar-responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+
+#myTopnav{
+	font-family: Amatic SC;
+  letter-spacing: 0.025em;
+	font-size: 30px;
+	background-color: black;
+	max-width: 100%;
+	margin-left: 0px;
+	padding-top: 20px;
+	text-align: right;
+
+}
+#myTopnav ul{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	margin-left: 0px;
+}
+#myTopnav li{
+	padding-top: 10px;
+}
+
+
+#myTopnav a{
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 15px;
+
+}
+#myTopnav a:hover{
+	color:#f4b4b7;
+}   
+.post p{
+	text-align: left;
+	}} 
+
+.about p{
+	text-align: left;
+	} }
