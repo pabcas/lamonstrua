@@ -514,6 +514,9 @@ padding-left: 70px;
     border: 0;
     cursor: pointer;
 }
+.carousel_image{
+	object-fit: contain;
+}
 .post h3{
 	line-height: 1.2;
 }
