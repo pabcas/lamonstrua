@@ -516,6 +516,7 @@ padding-left: 70px;
 }
 .carousel_image{
 	object-fit: contain;
+	height: 100%;
 }
 .post h3{
 	line-height: 1.2;
