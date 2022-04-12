@@ -295,6 +295,18 @@ padding-left: 70px;
   letter-spacing: 0.025em;
   font-size: 30px;
 }
+.post ul{
+	font-family: Roboto;
+	font-size: 22px;
+	margin-top: 1%;
+}
+.post li{
+	margin-top: 2%;
+}
+.post ol{
+	font-family: Roboto;
+	font-size: 22px;
+}
 
 .botonlink a{
 	position: relative;top:-10px;
@@ -306,7 +318,7 @@ padding-left: 70px;
   	border-top: 1px solid #f4b4b7;
   	border-right: 1px solid #f4b4b7;
   	border-bottom: 1px solid #f4b4b7;
-  	border-left: 1px solid#f4b4b7;
+  	border-left: 1px solid #f4b4b7;
     border-radius: 10px;
 }
 .botonlink a:hover{
