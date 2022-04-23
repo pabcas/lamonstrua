@@ -438,7 +438,25 @@ padding-left: 70px;
 	border-spacing: 20px;
 	border-left: 60px;
 	border-right: 60px; }
-
+	.podcast h3{
+		font-family: Creepster;
+	   letter-spacing: 0.025em;
+		 font-size: 36px;
+	 }
+   .podcast small{font-size: 20px;
+				 
+	 }
+   
+   .podcast iframe{
+	   padding-bottom: 0px;
+   }
+   .podcast{
+	   border-width: 0px;
+	   border-style: solid;
+	   border-color: #f4b4b7;
+	   border-spacing: 20px;
+	   border-left: 60px;
+	   border-right: 60px; }
 	#myBtn {
 	font-family: Amatic SC, sans-serif;
 	font-size: 35px;
