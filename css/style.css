@@ -505,6 +505,10 @@ padding-left: 70px;
 	font-size: 1.5em;
 	
 }
+.cursos img{
+	margin: auto;
+	width: 70%;
+}
 #biblio{
 	font-size: 2em;
 }
