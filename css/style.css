@@ -400,10 +400,12 @@ padding-left: 70px;
 	border-spacing: 20px;
 	border-left: 60px;
 	border-right: 60px;
+	padding-bottom: 10px;
+	
 }
 .archivo ul{
 	padding: 0;
-	margin-bottom: 500px;
+	margin-bottom: 100px;
 	list-style: none;
 	margin-left: 0px;
 }
@@ -481,6 +483,14 @@ padding-left: 70px;
   color: black;
   font-weight: bold; /* Add a dark-grey background on hover */
 }
+.listcursos li{
+	font-family: Amatic SC;
+	font-weight: bold;
+	letter-spacing: 0.025em;
+	  font-size: 32px;
+	  padding-top: 12px;
+	  
+  }
 #miedo{
 	padding:0;
 }
@@ -489,6 +499,14 @@ padding-left: 70px;
 }
 .mdemiedo h2 {
 	font-family: Amatic SC;
+}
+.mdemiedo h3 {
+	font-family: Amatic SC;
+	font-size: 1.5em;
+	
+}
+#biblio{
+	font-size: 2em;
 }
 
 @media screen and (max-width: 768px) {
