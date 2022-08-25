@@ -481,6 +481,15 @@ padding-left: 70px;
   color: black;
   font-weight: bold; /* Add a dark-grey background on hover */
 }
+#miedo{
+	padding:0;
+}
+.mdemiedo {
+	font-family: Amatic SC;
+}
+.mdemiedo h2 {
+	font-family: Amatic SC;
+}
 
 @media screen and (max-width: 768px) {
   .navbar {display: none;}
