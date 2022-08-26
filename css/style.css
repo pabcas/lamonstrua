@@ -508,6 +508,7 @@ padding-left: 70px;
 .cursos img{
 	margin: auto;
 	width: 70%;
+	border-radius: 20px;
 }
 #biblio{
 	font-size: 2em;
