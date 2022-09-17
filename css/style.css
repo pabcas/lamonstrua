@@ -33,6 +33,11 @@ a:hover{
 
 .blur{filter: blur(0px)}
 
+#planteo{
+	display: block;
+	margin-left: 12%;
+}
+
 .subbanner{
 	position: relative;
 	margin-left: 0px;
